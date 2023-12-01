@@ -1,0 +1,46 @@
+.block {
+    display: flex;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    padding: 80px 80px;
+  }
+  
+  .column {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  
+  .box_small {
+    flex: 0 0 50%;
+    
+    height: 50%;
+  
+    
+  }
+  img{
+    height: 90%;
+    width: 90%;
+  }
+  .box_long {
+    flex-basis: 100%;
+    padding: 25% 0 5% 5%;
+    
+   
+  }
+  .btn{
+    border-radius: 5px;
+    background: #FF900E;
+    padding:16px;
+    font-size: 16px;
+    border: none;
+    color:white
+
+}
+  
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
